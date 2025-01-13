@@ -14,7 +14,7 @@ export default function ProjectCard({ project }: Props) {
     const formmatedDate = new Date(project.date).toLocaleDateString('pt-br')
 
     return (
-        <div className="border-2 border-primary bg-zinc-900 w-[400px] h-[264px] rounded-md overflow-hidden text-white">
+        <div className="border-2 border-primary bg-zinc-900 w-[380px] h-[264px] rounded-md overflow-hidden text-white">
             <div className="w-full h-[190px] relative">
                 <img
                     className="absolute z-0 w-full h-full"
